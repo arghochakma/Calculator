@@ -5,7 +5,9 @@ class{
     }
 
     clear(){
-
+        this.current-operand = ''
+        this.previous-operand = ''
+        this.operation = undefined
     }
 
     delete(){
